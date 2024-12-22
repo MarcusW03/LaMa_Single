@@ -1,5 +1,5 @@
 from PIL import Image
-from bin import LaMa_Inpainter
+from LaMa_Single import LaMa_Inpainter
 
 def main():
     lama = LaMa_Inpainter()
