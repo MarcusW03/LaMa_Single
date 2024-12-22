@@ -1,0 +1,1 @@
+from .bin import LaMa_Inpainter
