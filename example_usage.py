@@ -4,8 +4,8 @@ from bin import LaMa_Inpainter
 def main():
     lama = LaMa_Inpainter()
 
-    image = Image.open("./test_images2/test2.png")
-    mask = Image.open("./test_images2/test2_mask001.png")
+    image = Image.open("./test_images/image.jpg")
+    mask = Image.open("./test_images/mask.png")
 
     lama.inpaint(image, mask)
 
